@@ -1,0 +1,53 @@
+@media (min-width: 680px){body{background-color: mediumspringgreen;}}
+@media (max-width: 679px){body{background-color: gold;}}
+
+
+#flex_container{ 
+/*    height:500px;*/
+    background-color: lightyellow;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 200px 0px;
+
+    }
+
+.boxes {
+/*    margin: 20px;*/
+}
+
+
+#box1 {
+    background-color:lightcoral;
+    border-radius:20px
+    }
+#box1 ul{color:blue;}
+
+#box2{
+    overflow: hidden;
+    text-align: center;
+    background-color: lightsteelblue;
+    flex-grow:1;
+    border-radius: 20px
+    
+    }
+
+#box3 {
+    background-color: lightblue;
+    color: deeppink;
+    border-radius: 20px;
+    }
+
+
+table{
+    border-collapse: collapse;
+    border: 3px solid darkred;
+    }
+th, td{
+    border: 1.5px solid darkred;
+    padding: 5px;
+        }
+
+[bgcolor="palegoldenrod"]{color: hotpink;}
+
+button{background-color: pink;}
+button:hover {background-color: blue; color: yellow;}
