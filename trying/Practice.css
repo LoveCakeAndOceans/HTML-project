@@ -8,13 +8,14 @@ body{
 	background-image: url(forest.jpeg);
 	background-size:cover;
 	border-bottom: 0.5px white solid;
+	background-position: center;
 
 }
 
 #top-contain{
-	background-color: rgba(34, 15, 72, 0.35);
-	height:100vh; 
-/*	background: linear-gradient(to top, rgb(0,0,0,0.3), rgb(255,255,255,0.1)); */
+	background-color: rgba(34, 15, 72, 0.28);
+	height:inherit; 
+/*	background: linear-gradient(to top, rgba(34, 15, 72, 0.37), rgba(34, 15, 72, 0.0)); */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -50,7 +51,8 @@ body{
 #second{
 	display: flex;
 	min-height: 100vh;
-	background-color: black;
+/*	background-color: black;*/
+	background-color: rgba(34, 15, 72, 0.63);
 	flex-direction: column;
 	justify-content: flex-start;
 	color: seashell;
@@ -75,8 +77,6 @@ body{
 	align-items: center;
 	justify-content: space-around;
 	flex-wrap: wrap;
-
-
 }
 
 .boxes{
@@ -89,6 +89,7 @@ body{
 	text-align: center;
 	font-family:Bodoni recut Oldstyle SSi Normal;
 }
+
 
 #box1{
 
